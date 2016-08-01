@@ -109,10 +109,10 @@ public class TestRailReporter {
             caseIdLookupMap = cacheCaseIdLookupMap(client, projectId, suiteId);
 
             //check some constraints
-            if (suiteIdSet.size() != 1) {
-                throw new IllegalStateException("Referenced plan " + plan.id + " has multiple test suites (" +
-                        suiteIdSet + "). This configuration is currently not supported.");
-            }
+//            if (suiteIdSet.size() != 1) {
+//                throw new IllegalStateException("Referenced plan " + plan.id + " has multiple test suites (" +
+//                        suiteIdSet + "). This configuration is currently not supported.");
+//            }
 
             /*
              This should be specified when starting the JVM for test execution. It should match exactly at least
