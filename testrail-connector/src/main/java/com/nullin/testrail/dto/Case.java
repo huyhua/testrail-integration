@@ -25,5 +25,6 @@ public class Case {
     public String automationId;
     public String refs;
 
-
+    @JsonProperty("custom_testdata")
+    public String content;
 }
